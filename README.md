@@ -36,7 +36,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://www.ticketswap.com 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
@@ -56,8 +56,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Kleuren:
+  Ticketswap functioneert nog steeds goed voor gebruikers die kleurenblind zijn. Onder elke belemmering was de site goed te lezen.
 
+  VoiceOver:
+  De voiceover heb ik gebruikt op Ticketswap. Hij is redelijk userfriendly. Het valt me op dat er op een paar plekken waar niks staat, er iets wordt uitgelijnd en voorgelezen. Dit kan voor gebruikers van de voiceover voor flinke verwarring zorgen lijkt me.  
 </details>
 
 
