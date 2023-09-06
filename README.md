@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Jip Daems
+  Sanne 't Hooft (vervangen door jouw naam)
 
   #### Je startniveau:
-  Blauw
+  hier je startniveau (kies uit zwart, rood óf blauw)
 
   #### Je focus:
-  Responsive
+  hier je focus (kies uit responsive óf surface plane)
  
 </details>
 
@@ -36,11 +36,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.ticketswap.com 
+  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/ticketswaphome.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
@@ -56,15 +56,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Kleuren:
-  Ticketswap functioneert nog steeds goed voor gebruikers die kleurenblind zijn. Onder elke belemmering was de site goed te lezen.
+  Lijst met je bevindingen die in de test naar voren kwamen:
 
-  VoiceOver:
-  De voiceover heb ik gebruikt op Ticketswap. Hij is redelijk userfriendly. Het valt me op dat er op een paar plekken waar niks staat, er iets wordt uitgelijnd en voorgelezen. Dit kan voor gebruikers van de voiceover voor flinke verwarring zorgen lijkt me.  
-
-  WCAG-CHECKLIST:
-
-  
 </details>
 
 
