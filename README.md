@@ -40,7 +40,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/ticketswaphome.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
@@ -61,6 +61,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   VoiceOver:
   De voiceover heb ik gebruikt op Ticketswap. Hij is redelijk userfriendly. Het valt me op dat er op een paar plekken waar niks staat, er iets wordt uitgelijnd en voorgelezen. Dit kan voor gebruikers van de voiceover voor flinke verwarring zorgen lijkt me.  
+
+  WCAG-CHECKLIST:
+
+  
 </details>
 
 
