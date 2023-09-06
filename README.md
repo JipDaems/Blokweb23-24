@@ -40,7 +40,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/ticketswaphome.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/ticketswap.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
@@ -56,7 +56,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Kleurentest: Uit de kleurentest kwamen geen rare bevindingen. Het leek er niet op dat gebruikers met een kleurbelemmering hier problemen zouden ervaren. Aan de leesbaarheid is niks op te merken. 
+
+  Screenreader: De screenreader werkte redelijk. Af en toe las hij een blank blokje voor die in de website ergens verwerkt was, niet relevant was en ook niet te zien was voor gebruikers van Ticketswap. 
+
+  Darkmode: Ticketswap is eigenlijk een site voor op Darkmode. Screenshots worden vaak gedeeld met Darkmode, waarin de contrasten nog mooier naar boven zouden komen dan in het 'white' thema. 
+
+  WC3G: De code was slordig. In de HTML wordt gestyled. Dit is absoluut niet de bedoeling. 
 
 </details>
 
