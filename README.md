@@ -73,9 +73,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  Hieronder mijn link van mijn breakdownschets. Deze heb ik in Miro gemaakt.
-  
 https://miro.com/app/board/uXjVMmVtxXo=/?share_link_id=383772999895
+
+Hierboven mijn linkje naar mijn breakdownschets, gemaakt in Miro.
 
 </details>
 
