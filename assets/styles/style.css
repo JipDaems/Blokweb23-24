@@ -1,0 +1,154 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* alles voor de <header> */
+
+
+header {
+	width: 100%;
+	height: 675px;
+	background-image: url("../../images/ticketswapheader.png");
+	background-position: center;
+}
+
+nav {
+	width: 100%;
+	height: 100px;
+	background-color: red;
+	display: flex;
+}
+
+.logo-container {
+	width: 25%;
+	height: 100%;
+	background-color: blue;
+}
+
+.link-container{
+	width: 75%;
+	height: 100%;
+	background-color: blueviolet;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+
+.link{
+	width: auto;
+	height: auto;
+	background-color: yellow;
+	border: solid;
+	margin-right: 1%;
+
+}
+
+.link a{
+	text-decoration: none;
+}
+
+.input-container{
+	height: 550px;
+	width: 100%;
+	background-color: pink;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+main {
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+	background-color: brown;
+}
+
+.inner-container{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.row {
+	height: auto;
+	min-height: 175px;
+	/* min-width: none; */
+	width: 60%;
+	background-color: green;
+	border: solid;
+
+}
+
+
+.trustpilot-container {
+	width: 100%;
+	height: 175px;
+	background-color: blue;
+	display: flex;
+}
+
+.checklist-container{
+	width: 75%;
+	height: 100%;
+	background-color: orange;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+.check-container{
+	width: 70%;
+	height: 50px;
+	background-color: navy;
+}
+.trustpilot-logo{
+	width: 25%;
+	height: 100%;
+	background-color: aqua;
+}
+
+.select-container{
+	width: 100%;
+	height: 175px;	
+	background-color: yellow;
+	display: flex;
+	align-items: center;
+
+}
+
+.select-container form{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: brown;
+	border-radius: 10px;
+}
+
+
+
+.review-container {
+	width: 100%;
+	height: 150px;
+	background-color: aqua;
+}
+
+.partners-container {
+	width: 100%;
+	height: 150px;
+	background-color: orange;
+}
+
+footer {
+	height: 600px;
+	width: 100%;
+	background-color: purple;
+}
