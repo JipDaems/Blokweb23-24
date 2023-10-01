@@ -1,73 +1,442 @@
-<!doctype html>
-<html lang="nl">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+	<title>Home</title>
 
-	<title>FedJipDaems</title>
-
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/TicketswapLogo.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+
 	<header>
-		<a href="/index.html"> <img src="/images/TicketswapLogo.png" alt="ticketswaplogo"></a>
-		<h1>Veilig tweedehands tickets kopen en verkopen</h1>
 		<nav>
-			<ul>
-				<li>Hoe het werkt</li>
-				<li>Word een partner</li>
-				<li>Inloggen</li>
-				<li>Verkoop tickets</li>
-			</ul>
+
+			<div class="logo-container">
+				<p>TicketSwap</p>
+			</div>
+			<div class="link-container">
+				<div class="link"><a href="#"> het werkt</a></div>
+				<div class="link"><a href="#">Word een partner</a></div>
+				<div class="link"><a href="#">Inloggen</a></div>
+				<div class="link green-button"><a href="verkoopTickets.html">Verkoop tickets</a></div>
+			</div>
+			<div class="hamburgerButton">
+
+			</div>
 		</nav>
-		<p>Op TicketSwap koop en verkoop je veilig, makkelijk en eerlijk tickets voor concerten, festivals,
-			sportwedstrijden, theater en dagjes weg. Door strenge controles en samenwerkingen met organisaties wordt
-			fraude voorkomen</p>
-		<button>Verkoop tickets</button>
+
+		<section class="input-container">
+			<div class="title-container">
+				<h1>Veilig tickets kopen en verkopen</h1>
+			</div>
+			<form>
+				<input placeholder="Zoek een evenement, artiest, locatie of stad" type="text" />
+			</form>
+		</section>
 	</header>
-	<h2>Waarom Ticketswap?</h2>
-	<img src="" alt="">
-	<h3>Veilig</h3>
-	<p>TicketSwap is veilig. De tickets en verkopers op ons platform worden op basis van verschillende criteria
-		gecontroleerd. Door partnerships met organisaties en ticket providers bieden we SecureSwap tickets aan, die 100%
-		geldig zijn. Lees hier meer over SecureSwap.</p>
+	<main>
+		<div class="inner-container">
+			<div class="row">
+				<div class="trustpilot-container">
+					<div class="checklist-container">
+						<div class="check-container">
+							<div class="icon"></div>
+							<div class="text">
+								Het veiligste platform om tickets te kopen en verkopen met meer dan 10 miljoen fans
+							</div>
+						</div>
+						<div class="check-container">
+							<div class="icon"></div>
+							<div class="text">
+								Prijzen zijn maximaal 20% bovenop de originele prijs
+							</div>
+						</div>
+						<div class="check-container">
+							<div class="icon"></div>
+							<div class="text">
+								Met 6000+ evenementen een samenwerking
+							</div>
+						</div>
+					</div>
+					<div class="trustpilot-logo"></div>
+				</div>
+			</div>
+		</div>
+		<hr>
+		</hr>
+		<div class="inner-container">
+			<div class="row select-content">
+				<div class="select-container">
+					<form>
+						<p>Je ziet aanbevelingen voor</p>
+						<select>
+							<option>In de buurt</option>
+						</select>
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<h2>Ontdek evenementen</h2>
+				<div class="row-content-container event-container">
+					<div class="event-content">
+						<div class="icon"></div>
+						<div class="text">
+							<h4>Vandaag</h4>
+							<p>Zoek optredens in de buurt voor spontane plannen</p>
+						</div>
+					</div>
+					<div class="event-content">
+						<div class="icon"></div>
+						<div class="text">
+							<h4>Dit weekend</h4>
+							<p> Zie aankomende evenementen op vrijdag, zaterdag en zondag</p>
+						</div>
+					</div>
+					<div class="event-content">
+						<div class="icon"></div>
+						<div class="text">
+							<h4> Zoek op jouw manier</h4>
+							<p>Kies de datum, locatie en categorie</p>
+						</div>
+					</div>
 
-	<img src="" alt="">
-	<h3>Makkelijk</h3>
-	<p>Het aanmaken van een advertentie is met een paar klikken gebeurd. Upload je ticket en vul de benodigde informatie
-		in. Hierna heb je er geen omkijken meer naar - we laten het je weten zodra je ticket is verkocht en we maken het
-		geld binnen drie werkdagen over naar jouw bankrekening. Een ticket kopen is ook heel eenvoudig. Je rekent direct
-		af via onze app, waarna het kaartje onmiddellijk beschikbaar is in jouw account op TicketSwap en ook per e-mail
-		naar jou wordt verstuurd.</p>
+				</div>
+			</div>
+			<div class="row">
+				<h2>Onze aanbevelingen</h2>
+				<p>Check de beste evenementen van het moment.</p>
+				<div class="row-content-container slide-container">
+					<div class="slide-content horizontal">
+						<div class="card">
+							<div class="card-container-left"></div>
+							<div class="card-container-right">
+								<p class="event-title">Drumroll of Sushi Roll?</p>
+								<br>
+								<p>Waarom niet beide? Bestel je favoriete gerechten bij Uber Eats en bezoek de beste acts..</p>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-container-left"></div>
+							<div class="card-container-right">
+								<p class="event-title">Drumroll of Sushi Roll?</p>
+								<br>
+								<p>Waarom niet beide? Bestel je favoriete gerechten bij Uber Eats en bezoek de beste acts..</p>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-container-left"></div>
+							<div class="card-container-right">
+								<p class="event-title">Drumroll of Sushi Roll?</p>
+								<br>
+								<p>Waarom niet beide? Bestel je favoriete gerechten bij Uber Eats en bezoek de beste acts..</p>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-container-left"></div>
+							<div class="card-container-right">
+								<p class="event-title">Drumroll of Sushi Roll?</p>
+								<br>
+								<p>Waarom niet beide? Bestel je favoriete gerechten bij Uber Eats en bezoek de beste acts..</p>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-container-left"></div>
+							<div class="card-container-right">
+								<p class="event-title">Drumroll of Sushi Roll?</p>
+								<br>
+								<p>Waarom niet beide? Bestel je favoriete gerechten bij Uber Eats en bezoek de beste acts..</p>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-container-left"></div>
+							<div class="card-container-right">
+								<p class="event-title">Drumroll of Sushi Roll?</p>
+								<br>
+								<p>Waarom niet beide? Bestel je favoriete gerechten bij Uber Eats en bezoek de beste acts..</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h2>Superbetaalbare shows</h2>
+				<p>Evenementen van € 30 of minder.</p>
+				<div class="row-content-container show-card-container">
+					<div class="show-card-row">
+						<div class="card">
+							<p>Vandaag 21:00</p>
+							<div class="card-title-container">
+								<h4>Ajax</h4>
+								<div class="card-ticket-amount">2022</div>
+							</div>
+							<p>Barcelona, Spanje</p>
+						</div>
+						<div class="card">
+							<p>Vandaag 21:00</p>
+							<div class="card-title-container">
+								<h4>Ajax</h4>
+								<div class="card-ticket-amount">2022</div>
+							</div>
+							<p>Barcelona, Spanje</p>
+						</div>
+					</div>
+					<div class="show-card-row">
+						<div class="card">
+							<p>Vandaag 21:00</p>
+							<div class="card-title-container">
+								<h4>Ajax</h4>
+								<div class="card-ticket-amount">2022</div>
+							</div>
+							<p>Barcelona, Spanje</p>
+						</div>
+						<div class="card">
+							<p>Vandaag 21:00</p>
+							<div class="card-title-container">
+								<h4>Ajax</h4>
+								<div class="card-ticket-amount">2022</div>
+							</div>
+							<p>Barcelona, Spanje</p>
+						</div>
+					</div>
+					<div class="show-card-row">
+						<div class="card">
+							<p>Vandaag 21:00</p>
+							<div class="card-title-container">
+								<h4>Ajax</h4>
+								<div class="card-ticket-amount">2022</div>
+							</div>
+							<p>Barcelona, Spanje</p>
+						</div>
+						<div class="card">
+							<p>Vandaag 21:00</p>
+							<div class="card-title-container">
+								<h4>Ajax</h4>
+								<div class="card-ticket-amount">2022</div>
+							</div>
+							<p>Barcelona, Spanje</p>
+						</div>
+					</div>
+					<div class="show-card-row">
+						<div class="card">
+							<p>Vandaag 21:00</p>
+							<div class="card-title-container">
+								<h4>Ajax</h4>
+								<div class="card-ticket-amount">2022</div>
+							</div>
+							<p>Barcelona, Spanje</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h2>Trending in de buurt</h2>
+				<p>Vind evenementen dicht bij huis.</p>
+				<div class="row-content-container slide-container">
+					<div class="slide-content vertical">
+						<div class="card">
+							<div class="card-container-top"></div>
+							<div class="card-container-bottom">
+								<p>Vandaag 21:00</p>
+								<div class="card-title-container">
+									<h4>Ajax</h4>
+									<div class="card-ticket-amount">2022</div>
+								</div>
+								<p>Barcelona, Spanje</p>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-container-top"></div>
+							<div class="card-container-bottom">
+								<p>Vandaag 21:00</p>
+								<div class="card-title-container">
+									<h4>Ajax</h4>
+									<div class="card-ticket-amount">2022</div>
+								</div>
+								<p>Barcelona, Spanje</p>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-container-top"></div>
+							<div class="card-container-bottom">
+								<p>Vandaag 21:00</p>
+								<div class="card-title-container">
+									<h4>Ajax</h4>
+									<div class="card-ticket-amount">2022</div>
+								</div>
+								<p>Barcelona, Spanje</p>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-container-top"></div>
+							<div class="card-container-bottom">
+								<p>Vandaag 21:00</p>
+								<div class="card-title-container">
+									<h4>Ajax</h4>
+									<div class="card-ticket-amount">2022</div>
+								</div>
+								<p>Barcelona, Spanje</p>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-container-top"></div>
+							<div class="card-container-bottom">
+								<p>Vandaag 21:00</p>
+								<div class="card-title-container">
+									<h4>Ajax</h4>
+									<div class="card-ticket-amount">2022</div>
+								</div>
+								<p>Barcelona, Spanje</p>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-container-top"></div>
+							<div class="card-container-bottom">
+								<p>Vandaag 21:00</p>
+								<div class="card-title-container">
+									<h4>Ajax</h4>
+									<div class="card-ticket-amount">2022</div>
+								</div>
+								<p>Barcelona, Spanje</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h2>Locaties</h2>
+				<p>Populaire evenementenlocaties</p>
+				<div class="row-content-container locations-container">
+					<div class="locations-row-container">
+						<div class="card">
+							<!-- <p>Afrika</p> -->
+						</div>
+						<div class="card">
+							<!-- <p>Afrika</p> -->
+						</div>
+						<div class="card">
+							<!-- <p>Afrika</p> -->
+						</div>
+					</div>
+					<div class="locations-row-container">
+						<div class="card">
+							<!-- <p>Afrika</p> -->
+						</div>
+						<div class="card">
+							<!-- <p>Afrika</p> -->
+						</div>
+						<div class="card">
+							<!-- <p>Afrika</p> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="review-container">
+			<div class="title-container">
+				<h2>Meer dan 11.000.000 tevreden</h2>
+				<h2>fans uit 36 verschillende landen!</h2>
+			</div>
+			<div class="review-content">
 
-	<img src="" alt="">
-	<h3>Eerlijk</h3>
-	<p>Als TicketSwap-fan weet je dat je altijd een eerlijke prijs betaalt voor jouw tickets. We beschermen kopers tegen
-		woekerprijzen doordat we een maximale verkoopprijs hanteren van 20% boven de originele ticketprijs.</p>
-	<h2>Uitlegvideo</h2>
-	<div>Youtubevideo</div>
-	<button>Play</button>
-	<h2>Tickets kopen</h2>
-	<h3>Ontvang je ticket gelijk</h3>
-	<p>Vind het ticket waarnaar je op zoek bent, betaal online en je ontvangt het ticket direct. Tickets die je te koop
-		ziet staan zijn al door de verkoper geüpload, dus ze worden meteen na het afrekenen naar jou verstuurd.</p>
-	<h2>Strenge controles</h2>
-	<p>Fraude wordt voorkomen door het controleren van gebruikers en door samenwerking met evenementenorganisaties. Klik
-		hier voor meer informatie over gebruikerscontrole.</p>
-	<h2>Transparantie</h2>
-	<p>Je kan de naam en de foto zien van de persoon van wie je een kaartje koopt. Daarnaast kan je ook zien of er een
-		social media account is gekoppeld en of ze in het verleden tickets hebben verkocht op ons platform. Hierdoor is
-		duidelijk van wie je een kaartje koopt.</p>
-	<h2>Eerlijke prijzen</h2>
-	<p>Wij beschermen kopers tegen woekerprijzen doordat we maximaal 20% toename hanteren van de originele verkoopprijs.
-		Als koper weet je altijd dat je een eerlijke prijs betaalt voor je tickets.</p>
+			</div>
+		</section>
+	</main>
+	<hr>
 
-	
-	<script defer src="scripts/script.js"></script>
+	<div class="partners-container">
+		<div class="inner-container">
+			<div class="container-left">
+				<h2>Meer dan 6000 partners</h2>
+				<a href="#">Word een partner</a>
+			</div>
+			<div class="container-right">
+				<div class="scroll-partners-container">
+					<div class="logo"></div>
+					<div class="logo"></div>
+					<div class="logo"></div>
+					<div class="logo"></div>
+					<div class="logo"></div>
+					<div class="logo"></div>
+					<div class="logo"></div>
+					<div class="logo"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<footer>
+
+		<div class="inner-container">
+			<div class="left-container list-container">
+				<ul>
+					<li>Menu</li>
+					<li>Home</li>
+					<li>Hoe het werkt</li>
+					<li>Over ons</li>
+					<li>Magazine</li>
+					<li>Vacatures</li>
+					<li>Word een partner</li>
+					<li>Pers</li>
+				</ul>
+
+				<form>
+					<p>Menu</p>
+					<select>
+						<option>Home</option>
+						<option>Hoe het werkt</option>
+						<option>Over ons</option>
+						<option>Magazine</option>
+					</select>
+				</form>
+
+			</div>
+			<div class="mid-container list-container">
+				<ul>
+					<li>Volg ons</li>
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>Instagram</li>
+					<li>Tiktok</li>
+					<li><br></li>
+					<li>Klantenservice</li>
+					<li>Hulp en veelgestelde vragen</li>
+				</ul>
+			</div>
+			<div class="right-container">
+				<button>Hoe het werkt</button>
+				<br>
+				<div class="appstore-container"></div>
+				<div class="appstore-container"></div>
+			</div>
+		</div>
+	</footer>
+	<br>
+	<hr>
+	<div class="terms-container">
+		<div class="terms-content">
+			<div class="left-container">
+				<p>Voorwaarden</p>
+				<p>Privacy</p>
+				<p>Responsible disclosure</p>
+			</div>
+			<div class="right-container">
+				<select>
+					<option>Nederlands (Nederland)</option>
+				</select>
+			</div>
+		</div>
+	</div>
+
+
+
+
 </body>
 
 </html>
